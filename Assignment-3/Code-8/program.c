@@ -2,11 +2,17 @@
 
 int main() 
 {
-    int n = -5;
-    if (n >= 0) {
-        printf("Positive\n");
-    } else {
-        printf("Negative\n");
+    int age = 20;
+    
+    if (age >= 18) 
+    {
+        if (age >= 21) 
+            printf("Can drink. \n");
+        else 
+            printf("Can vote, not drink. \n");
+        }
+    else 
+    {
+        printf("Not eligible. \n");
     }
-    return 0;
 }
