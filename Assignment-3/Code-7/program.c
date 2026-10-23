@@ -2,11 +2,14 @@
 
 int main() 
 {
-    int n = -5;
-    if (n >= 0) {
-        printf("Positive\n");
-    } else {
-        printf("Negative\n");
-    }
+    int marks = 75;
+    if (marks >= 90) 
+        printf("Grade A");
+    else if (marks >= 75) 
+        printf("Grade B");
+    else if (marks >= 50) 
+        printf("Grade C");
+    else 
+        printf("Grade D")
     return 0;
-}https://github.com/AdityaChoudhari2108/PPS-Assignments-sem-1/security
+}
